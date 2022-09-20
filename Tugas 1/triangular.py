@@ -1,5 +1,7 @@
 def triangular(number):
     list = (x for x in range(number))
-    return list
+    listnew = sum(i for i in list)
+    return listnew
 
-triangular(5)
+data = triangular(5)
+print(data)
