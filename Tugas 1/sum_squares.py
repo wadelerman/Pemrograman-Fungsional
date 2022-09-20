@@ -1,6 +1,7 @@
-def sum_squares(list):
-   print(sum(x*x for x in list))
+def triangular(number):
+    list = (x for x in range(number))
+    listnew = sum(i for i in list)
+    return listnew
 
-list = [1,2,3]
-
-sum_squares(list)
+data = triangular(5)
+print(data)
