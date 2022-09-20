@@ -7,4 +7,8 @@ def pangkat(x, y):
         hasil *= x
     print(hasil)
 
-pangkat(5,5)
+def pangkat2(x,y):
+    return x**y
+
+pangkat(3, 2)
+print(pangkat2(3, 9))
