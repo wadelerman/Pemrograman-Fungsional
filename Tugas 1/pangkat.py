@@ -10,3 +10,5 @@ pangkat(3,5)
 
 print(3*3)
 print(sum(3*3 for x in range(1)))
+
+
