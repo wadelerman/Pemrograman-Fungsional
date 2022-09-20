@@ -1,14 +1,10 @@
-from unittest import result
+from re import X
 
 
 def pangkat(x, y):
-    for x in range(1, y+1):
-        result = result*x
-    return result
+    hasil = 1
+    for y in range(y, 0, -1):
+        hasil *= x
+    print(hasil)
 
-pangkat(3,5)
-
-print(3*3)
-print(sum(3*3 for x in range(1)))
-
-
+pangkat(5,5)
